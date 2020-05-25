@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/basiclightbox/dist/basicLightbox.min.css">
+    <title>Document</title>
+
+</head>
+
+<body style="position: relative;">
+    <div id="icon-close"
+        style="position: fixed; right: 10px; z-index: 8000; color: red; font-size: 20px; visibility: hidden; background-color: rgba(100,90,190, 0.2); padding: 5px; border-radius: 6px;"
+        onclick="closeModal()">close [ X ]</div>
+    <form id="search-form">
+        <input type="text" name="query" autocomplete="off" placeholder="Search images..." />
+    </form>
+
+    <ul id="list" />
+</body>
+<script src="../node_modules/basiclightbox/dist/basicLightbox.min.js"></script>
+<script src="script.js"></script>
+
+</html>
